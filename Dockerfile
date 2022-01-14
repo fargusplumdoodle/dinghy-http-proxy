@@ -34,3 +34,6 @@ ENV DNS_IP 127.0.0.1
 ENV HOSTMACHINE_IP 127.0.0.1
 
 EXPOSE 19322
+
+# Copying custom settings
+COPY include-http.conf /etc/nginx/vhost.d/default
